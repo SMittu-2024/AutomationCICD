@@ -29,7 +29,7 @@ public class SubmitOrderTest extends BaseTest {
 	public void submitOrderTest(HashMap<String,String> input) throws IOException, InterruptedException{
 
 		String country = "India";
-		String ConfirmMessage =  "THANKYOU FOR THE ORDER.."; 
+		String ConfirmMessage =  "THANKYOU FOR THE ORDER."; 
 				
 		//Login
 		ProductCatalogue productCatalogue = landingPage.loginApplication(input.get("email"), input.get("password"));
